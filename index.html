@@ -81,7 +81,7 @@
         var viewer = new PANOLENS.Viewer({ container: container, controlBar: true, output: 'console', autoHideInfospot: false });
         viewer.addUpdateCallback(function() {});
 
-        var videoPanorama = new PANOLENS.VideoPanorama("videos/my_video.mp4"); // Replace 'your-video-file.mp4' with the actual video path
+        var videoPanorama = new PANOLENS.VideoPanorama("videos/Craniectomy brain surgery.mp4"); // Replace 'your-video-file.mp4' with the actual video path
         videoPanorama.addEventListener('progress', function(e) {
             $("#loading").show();
         });
